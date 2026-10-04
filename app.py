@@ -97,7 +97,7 @@ def update_task(id):
 
 @app.route("/about")
 def about():
-    return "This is my Flask Task Manager project"
+    return "This is my Flask Task Manager project where Jenkins and Docker is included "
 
 
 @app.route("/health")
