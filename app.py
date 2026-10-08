@@ -102,7 +102,7 @@ def about():
 
 @app.route("/health")
 def health():
-    return "Application is healthy"
+    return "Application is healthy and up"
 
 
 if __name__ == "__main__":
